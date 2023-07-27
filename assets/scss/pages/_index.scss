@@ -1,7 +1,68 @@
-.index-title {
-  font-size: 100px;
+.banner{
+  background-image: url("../images/home-header.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container{
+
+    .banner-content{
+      text-align: right;
+      padding: 296px 0;
+      h2{
+        margin-bottom: 10px;
+      }
+      a{
+        font-size: 20px;
+        padding: 6px 12px;
+      }
+    }  
+  }
 }
-.banner-content{
-  text-align: right;
-  padding: 296px 0;
+.product-service{
+  .container{
+    .row{
+      .col-3{
+        a{
+          display: block;
+          img{
+            width: 83.33px;
+            height: 83.33px;
+          }
+        }
+      }
+    }
+  }
+}
+.active-Co-branded{
+  background-image: url("../images/index-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container{
+    .mx-g-12{
+      margin-right: 12px;
+      margin-left: 12px;
+    }
+  }
+}
+.customer-feedback{
+  .container{
+    .row{
+      .card{
+        small{
+          color: #707070;
+        }
+      }
+    }
+  }
+}
+.contact{
+  .container{
+    .row{
+      // 由於 Placeholder 並不是正規的網頁元素，而僅僅是一個標籤內的屬性，所以如果要用 CSS 來指定這個屬性，必須要用偽元素選擇器(Pseudo-Elements Selector)模式，就是前面要加上兩個冒號 ::，然後打上 placeholder。
+      ::placeholder {
+        opacity: 0.2;
+        }
+    }
+  }
 }
