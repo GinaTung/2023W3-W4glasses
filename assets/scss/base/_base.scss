@@ -3,7 +3,14 @@
 body{
     font-family: 'Roboto','Noto Sans TC', sans-serif;
     line-height: 1.5;
-  }
+    h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 ,p{
+        margin-bottom: 0;
+    }
+    .row{
+      margin-left: -12px;
+      margin-right: -12px;
+    }
+}
 *,*:before,*:after{
     box-sizing: border-box;
 }
@@ -16,10 +23,13 @@ a{
     text-decoration: none;
     display: inline-block;
 }
-.container{
-    max-width: 1296px;
+.container {
+    max-width: 1320px;
     margin: 0 auto;
     padding-left: 12px;
     padding-right: 12px;
+    /* 依照設計稿 PC 版：
+     * 容器寬度為 1296px，因為有設定為 border-box，所以整體寬度需加上左右 padding
+     * 整體 container 寬度為 1296px + 12px*2 = 1320px */
 }
 
