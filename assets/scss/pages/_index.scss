@@ -17,18 +17,50 @@
     }  
   }
 }
-.product-service{
-  .container{
-    .row{
-      .col-3{
-        a{
-          display: block;
-          img{
-            width: 83.33px;
-            height: 83.33px;
-          }
+@media(max-width:376px){
+  .banner{
+    background-image: url("../images/home-header-sm.png");
+    .container{
+      .banner-content{
+        h5{
+          font-size: 16px !important;
         }
+        h2{
+          font-size: 24px !important;
+          margin-bottom: 8px;
+        }
+      }  
+    }
+  }
+}
+.product-service .container .row{
+  .col-3{
+    a{
+      display: block;
+      img{
+        width: 83.33px;
+        height: 83.33px;
       }
+    }
+  }
+}
+@media(max-width:376px){
+  .product-service .container{
+    h3{
+      font-size: 24px !important;
+    }
+  }
+}
+.active-classic-collection .container{
+  .classic-img{
+    width: 336px;
+    height: 336px;
+  }
+}
+@media(max-width:376px){
+  .active-classic-collection .container{
+    h3{
+      font-size: 24px !important;
     }
   }
 }
@@ -38,24 +70,37 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.customer-feedback{
-  .container{
-    .row{
-      .card{
-        small{
-          color: #707070;
-        }
-      }
+@media(max-width:376px){
+  .active-Co-branded .container{
+    h3{
+      font-size: 24px !important;
     }
   }
 }
-.contact{
-  .container{
-    .row{
-      // 由於 Placeholder 並不是正規的網頁元素，而僅僅是一個標籤內的屬性，所以如果要用 CSS 來指定這個屬性，必須要用偽元素選擇器(Pseudo-Elements Selector)模式，就是前面要加上兩個冒號 ::，然後打上 placeholder。
-      ::placeholder {
-        opacity: 0.2;
-        }
+.customer-feedback .container .row{
+  .card{
+    small{
+      color: #707070;
+    }
+  }
+}
+@media(max-width:376px){
+  .customer-feedback .container{
+    h3{
+      font-size: 24px !important;
+    }
+  }
+}
+.contact .container .row{
+  // 由於 Placeholder 並不是正規的網頁元素，而僅僅是一個標籤內的屬性，所以如果要用 CSS 來指定這個屬性，必須要用偽元素選擇器(Pseudo-Elements Selector)模式，就是前面要加上兩個冒號 ::，然後打上 placeholder。
+::placeholder {
+  opacity: 0.2;
+  }
+}
+@media(max-width:376px){
+  .contact .container{
+    h3{
+      font-size: 24px !important;
     }
   }
 }
