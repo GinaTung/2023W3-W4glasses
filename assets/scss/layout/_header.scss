@@ -1,20 +1,17 @@
-.header{
-  .container{
-    .row {
-      .logo{
-        padding: 12px 0;
-      }
-      .navbar-nav{
-        li{
-          a{
-            font-size: 20px;
-            padding: 25px 0 25px 64px;
-          }
-        }
+.header .container .row{
+  .logo{
+    padding: 12px 0;
+  }
+  .navbar-nav{
+    li{
+      a{
+        font-size: 20px;
+        padding: 25px 0 25px 64px;
       }
     }
   }
 }
+
 @media(max-width:576px){
   .header .container{
     padding: 0;
@@ -22,23 +19,29 @@
       .logo{
         padding: 15px 16px;
         img{
-          width: 80px;
-          height: auto;
+          width: 100%;
         }
       }
       .navbar-nav li {
         width: 50%;
         a {
-                  font-size: 16px;
-                  display: block;
-                  padding: 0;
-                  text-align: center;
-                  padding-top: 12px;
-                  padding-bottom: 12px;
-                  border: 1px solid #FFF;
-          
-          }
+          font-size: 16px;
+          display: block;
+          padding: 0;
+          text-align: center;
+          padding-top: 12px;
+          padding-bottom: 12px;
+          border: 1px solid #FFF;
+        }
       }
+    }
+  }
+}
+@media(min-width:576px){
+  .header .container{
+    .row {
+      margin-right: -12px;
+      margin-left: -12px;
     }
   }
 }
