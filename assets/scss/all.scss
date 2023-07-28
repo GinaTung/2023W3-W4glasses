@@ -1,7 +1,10 @@
-// BS工具
 @import "../../node_modules/bootstrap/scss/functions";
-@import "./utils/_variables.scss";
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./helpers/_variables.scss";
+// @import "../../node_modules/bootstrap/scss/utilities";
+
+// // 建立BS5-新增寬及高比例
+// @import "./utils/_utilities.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 
 // @import "./base/_reset.scss";
@@ -11,3 +14,6 @@
 
 
 @import './pages/_index';
+// @import './pages/_products';
+// @import './pages/_location';
+// @import './pages/_optical';
