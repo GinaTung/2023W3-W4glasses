@@ -7,6 +7,9 @@ body{
     h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 ,p{
         margin-bottom: 0;
     }
+    h1{
+        font-size: 50px !important;
+    }
 }
 *,*:before,*:after{
     box-sizing: border-box;
@@ -29,4 +32,27 @@ a{
      * 容器寬度為 1296px，因為有設定為 border-box，所以整體寬度需加上左右 padding
      * 整體 container 寬度為 1296px + 12px*2 = 1320px */
 }
-
+.fs-1{
+    font-size: 128px !important;
+}
+.fs-2{
+    font-size: 64px !important;
+}
+.fs-3{
+    font-size: 48px !important;
+}
+.fs-4{
+    font-size: 36px !important;
+}
+.fs-5{
+    font-size: 32px !important;
+}
+.fs-6{
+    font-size: 24px !important;
+}
+.fs-7{
+    font-size: 18px !important;
+}
+.fs-8{
+    font-size: 16px !important;
+}
