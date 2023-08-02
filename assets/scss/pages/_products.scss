@@ -1,4 +1,18 @@
-h1{
-    color:$primary;
-}
+// .border-nav-bottom{
+//     border-bottom: 8px solid #AA0601;
+// }
 // 88 focus-ring"166
+.nav-fill .nav-item .nav-link:hover{
+    border-bottom: 8px solid #AA0601;
+}
+.box{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+.box1{
+    background: #5F3E2D;
+}
+.box2{
+    background: #5F3E2D;
+}
