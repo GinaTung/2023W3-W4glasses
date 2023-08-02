@@ -70,10 +70,19 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media(max-width:992px){
+  .active-Co-branded {
+      background-image: url("../images/index-bg-md.png");
+    }
+}
 @media(max-width:376px){
-  .active-Co-branded .container{
-    h3{
-      font-size: 24px !important;
+  .active-Co-branded {
+      background-image: url("../images/index-bg-sm.png");
+    .container{
+      h3{
+        font-size: 24px !important;
+      }
     }
   }
 }
