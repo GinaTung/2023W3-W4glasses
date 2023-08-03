@@ -1,9 +1,77 @@
-// .border-nav-bottom{
-//     border-bottom: 8px solid #AA0601;
-// }
-// 88 focus-ring"166
-.nav-fill .nav-item .nav-link:hover{
-    border-bottom: 8px solid #AA0601;
+.container{
+    // @include mobile{
+    //     padding: 0;
+    //   }
+    .nav{
+        @include mobile{
+            flex-wrap: nowrap;
+        }
+      }
+    .nav-link{
+        @include pad{
+            font-size: 24px !important;
+          }
+          @include mobile{
+            font-size: 16px !important;
+            padding: 16px 10px !important;
+            letter-spacing: -1px;
+          }
+        &:hover{
+            border-bottom: 8px solid #AA0601;
+        }
+    }
+}
+.products-banner{
+    @include mobile{
+        margin-bottom: 40px;
+      }
+}
+.optical-CelluloidCombi{
+    h4, h5{
+        @include mobile{
+            font-size: 24px !important;
+          }
+    }
+    h5{
+        @include mobile{
+            margin-bottom: 24px;
+          }
+    }
+    .row{
+        .col{
+            @include pad{
+                margin-bottom: 40px !important;
+              }
+              @include mobile{
+                margin-bottom: 24px;
+              }
+        }
+    }
+}
+.pagination{
+    @include pad{
+        margin-top: 40px;
+      }
+    @include mobile{
+        margin-top: 24px;
+        margin-bottom: 64px !important;
+      }
+    .page-link{
+        font-size: 18px;
+        @include mobile{
+            font-size: 16px !important;
+          }
+        &:hover{
+            background: $black;
+            color: $white;
+        }
+    }
+    .page-fs-19{
+        font-size: 19px;
+        @include mobile{
+            font-size: 16px !important;
+          }
+    }
 }
 .box{
     width: 24px;
@@ -14,5 +82,5 @@
     background: #5F3E2D;
 }
 .box2{
-    background: #5F3E2D;
+    background: #B75929;
 }
