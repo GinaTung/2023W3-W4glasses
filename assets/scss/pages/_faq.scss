@@ -1,0 +1,22 @@
+.fs-24{
+    @include mobile{
+        font-size: 24px !important;
+      }
+}
+
+.faq-title{
+    @include mobile{
+        margin-top: $spacer*2.5 !important;
+        margin-bottom: $spacer*1.5 !important;
+      }
+}
+.faq-qus{
+    @include mobile{
+        margin-bottom: $spacer*1.5 !important;
+      }
+}
+.faq-qu5{
+    @include mobile{
+        margin-bottom: $spacer*4 !important;
+      }
+}

@@ -35,9 +35,9 @@ a{
 .fs-1{
     font-size: 128px !important;
 }
-// .fs-2{
-//     font-size: 64px !important;
-// }
+.fs-2{
+    font-size: 64px !important;
+}
 .fs-3{
     font-size: 48px !important;
 }
@@ -62,6 +62,9 @@ a{
 .fs-19{
     font-size: 19px;
 }
+.fs-24{
+    font-size: 24px;
+}
 .fs-42{
     font-size: 42px;
 }
@@ -83,4 +86,8 @@ a{
 .btn2:hover{
     background: $primary !important;
     color: #fff !important;
+}
+.border-left-primary{
+    border-left: 8px solid #9F1213;
+    padding-left:16px;
 }
