@@ -4,9 +4,6 @@
             flex-wrap: nowrap;
         }
       }
-    .nav-item{
-    width: 33.33%;
-    }
     .nav-link{
         @include pad{
             font-size: 24px !important;
@@ -15,8 +12,10 @@
             font-size: 16px !important;
             letter-spacing: -1px;
           }
+    }
+    .border-bottom-primary{
         &:hover{
-            border-bottom: 8px solid #AA0601;
+            border-bottom: 8px solid #AA0601 !important;
         }
     }
 }
@@ -62,7 +61,7 @@
           }
         &:hover{
             background: $black;
-            color: $white;
+            color: $white !important;
         }
     }
     .page-fs-19{

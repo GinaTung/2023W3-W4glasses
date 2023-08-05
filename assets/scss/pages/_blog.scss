@@ -1,0 +1,40 @@
+$font-weight-black:900;
+.nav-link2{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.fw-black{
+    font-weight: $font-weight-black;
+}
+.card-text-hide{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+.mb-40{
+    @include pad{
+        margin-bottom: 40px;
+      }
+}
+.mb-60{
+    @media(min-width: 768px){
+        margin-bottom: 60px !important;
+    }
+}
+.fs-md-8{
+    @media(min-width: 768px){
+        font-size: 20px !important;
+    }
+}
+.card-end{
+    @include pad{
+        display: none;
+      }
+}
+.fs-24{
+    @include pad{
+        font-size: 24px !important;
+      }
+}
