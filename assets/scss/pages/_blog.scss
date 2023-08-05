@@ -1,4 +1,9 @@
 $font-weight-black:900;
+.blog-nav{
+    @include pad-sm{
+        display: none !important;
+      }
+}
 .nav-link2{
     padding-top: 13px;
     padding-bottom: 13px;
@@ -6,12 +11,24 @@ $font-weight-black:900;
 .fw-black{
     font-weight: $font-weight-black;
 }
+.card-text{
+    @include pad-sm{
+        display: none !important;
+      }
+}
 .card-text-hide{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 6;
-    -webkit-box-orient: vertical;
+    @include pad{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+      }
+}
+.mt-40{
+    @include pad-sm{
+        margin-top: 40px;
+      }
 }
 .mb-40{
     @include pad{
