@@ -1,0 +1,19 @@
+$font-weight-black:900;
+.blog-nav{
+    @include pad-sm{
+        display: none !important;
+      }
+}
+.nav-link2{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.fw-black{
+    font-weight: $font-weight-black;
+}
+.material-symbols-outlined{
+    font-size: 38px !important;
+    @include pad-sm{
+        font-size: 24px !important;
+      }
+}
