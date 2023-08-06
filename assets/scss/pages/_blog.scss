@@ -11,7 +11,7 @@ $font-weight-black:900;
 .fw-black{
     font-weight: $font-weight-black;
 }
-.card-text{
+.card-text2{
     @include pad-sm{
         display: none !important;
       }
@@ -40,18 +40,9 @@ $font-weight-black:900;
         margin-bottom: 60px !important;
     }
 }
-.fs-md-8{
-    @media(min-width: 768px){
-        font-size: 20px !important;
-    }
-}
 .card-end{
     @include pad{
         display: none;
       }
 }
-.fs-24{
-    @include pad{
-        font-size: 24px !important;
-      }
-}
+// page-fs-19在optical有寫

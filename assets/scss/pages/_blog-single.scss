@@ -11,10 +11,10 @@ $font-weight-black:900;
 .fw-black{
     font-weight: $font-weight-black;
 }
-.material-symbols-outlined{
-    font-size: 38px !important;
-    @include pad-sm{
-        font-size: 24px !important;
-      }
-}
-// 圖片及文字大小變化
+// 無法變更大小
+// .material-symbols-outlined{
+//     font-size: 38px !important;
+//     @include pad-sm{
+//         font-size: 24px !important;
+//       }
+// }
