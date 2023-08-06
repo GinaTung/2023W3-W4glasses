@@ -31,12 +31,20 @@
     }
   }
 }
-
+//以下會造成有X軸問題待問
 @media(min-width:576px){
   .header .container{
     .row {
       margin-right: -12px;
       margin-left: -12px;
+    }
+  }
+}
+@media(min-width:575px){
+  .header .container{
+    .row {
+      margin-right: 0px;
+      margin-left: 0px;
     }
   }
 }

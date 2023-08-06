@@ -2,41 +2,35 @@
   .social-icon{
     width: 48px;
     height: 48px;
-  }
-  @media(max-width:768px){
-    .social-icon{
+    @include pad{
       width: 40px;
       height: 40px;
+    }
+    @include pad-sm{
+      width: 24px;
+      height: 24px;
     }
   }
   .icon-call, .icon-email{
     margin-right: 22px;
     font-size: 36px;
   }
-
 }
-@media(max-width:576px){
-  .footer .container{
-    .social-icon{
-      width: 24px;
-      height: 24px;
-    }
-    .d-sm-nav1-none{
-      display: none;
-    }
-    .fs-sm-16{
-      font-size: 16px !important;
-    }
-    small{
-      font-size: 16px;
-    }
-    .icon-call{
-      margin-right: 11px;
-      font-size: 18px;
-    }
-    .icon-email{
-      margin-right: 11px;
-      font-size: 20px;
-    }
+
+.d-sm-nav1-none{
+  @include pad-sm{
+    display: none;
+  }
+}
+.icon-call{
+  @include pad-sm{
+    margin-right: 11px !important;
+    font-size: 18px !important;
+  }
+}
+.icon-email{
+  @include pad-sm{
+    margin-right: 11px !important;
+    font-size: 20px !important;
   }
 }
